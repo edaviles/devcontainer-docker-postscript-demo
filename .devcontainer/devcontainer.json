@@ -1,0 +1,16 @@
+{
+  "name": "OA Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+  "workspaceFolder": "/workspace/devcontainers-demo3"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "ms-vscode.vscode-node-azure-pack"
+  ],
+  "postStartCommand": "./.devcontainer/post_create.sh",
+  "remoteUser": "vscode"
+}
