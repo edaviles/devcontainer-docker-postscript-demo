@@ -2,7 +2,7 @@
   "name": "OA Dev Container",
   "build": {
     "dockerfile": "Dockerfile",
-  "workspaceFolder": "/workspace/devcontainers-demo3"
+  "workspaceFolder": "/workspace/devcontainer-docker-postscript-demo"
   },
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
